@@ -15,7 +15,7 @@ const config: Config = {
     },
 
     // Set the production url of your site here
-    url: 'https://pacoorozco.info/APS-docs/',
+    url: 'https://pacoorozco.info',
     // Set the /<baseUrl>/ pathname under which your site is served
     // For GitHub pages deployment, it is often '/<projectName>/'
     baseUrl: '/APS-docs/',
