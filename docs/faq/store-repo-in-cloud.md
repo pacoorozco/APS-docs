@@ -1,2 +1,0 @@
-# How can I store the repository in a cloud server?
-Any app that provides the ability to sync folders from your device storage or SD card to the cloud can be paired with Password Store to make it happen. Syncthing is popular among Password Store users for this purpose. Once you have the passwords in a directory on your device, choose the "Use local directory" option during first run and use the "SD-Card" option to navigate to and select your passwords directory.
