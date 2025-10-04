@@ -24,7 +24,7 @@ Releasing a new major version of the app is a slightly more involved process.
 
 5. The maintainer in charge of Play Store deployment then takes the generated binaries from this GitHub release and uploads them to Play Store. In the future this manual step should be eliminated in favour of a Gradle-backed automatic deployment setup, using tools like [Gradle-Play-Publisher].
 
-[android-password-store]: https://github.com/android-password-store/Android-Password-Store
+[android-password-store]: https://github.com/aagrahn/Android-Password-Store
 [mavencentral]: https://search.maven.org/search?q=g:%22com.github.android-password-store%22
 [gradle-play-publisher]: https://github.com/Triple-T/gradle-play-publisher
-[milestone]: https://github.com/android-password-store/Android-Password-Store/milestones
+[milestone]: https://github.com/agrahn/Android-Password-Store/milestones

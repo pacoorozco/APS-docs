@@ -25,14 +25,14 @@ The source code is split across 12 modules and 1 subproject.
 - `ui/compose` has the theming code for building UI components in [Jetpack Compose](https://developer.android.com/jetpack/compose).
 - `app` is everything else that constitutes APS.
 
-In most scenarios, the `app` directory is where you'd be contributing changes to. While most of the code has been rewritten and documented, there are still gnarly "legacy" parts that might be challenging to understand at a glance. Please get in touch via the [Discussions](https://github.com/android-password-store/Android-Password-Store/discussions) page with any questions you have, and we'd love to explain and improve things.
+In most scenarios, the `app` directory is where you'd be contributing changes to. While most of the code has been rewritten and documented, there are still gnarly "legacy" parts that might be challenging to understand at a glance. Please get in touch via the [Discussions](https://github.com/agrahn/Android-Password-Store/discussions) page with any questions you have, and we'd love to explain and improve things.
 
 We bundle a [`ignore-revs-file`](https://git-scm.com/docs/git-blame#Documentation/git-blame.txt---ignore-revs-fileltfilegt) to ensure `git blame` is not affected by noisy changes. To make use of this, run `git config blame.ignoreRevsFile .git-blame-ignore-revs` from inside this repository. GitHub will automatically use this file for the blames it renders on the website.
 
 ## Source code conventions
 
-- Unless you're absolutely sure what you're doing, always prefer the [`unsafeLazy`](https://github.com/android-password-store/Android-Password-Store/blob/f870dd49138d63d9803783458abf1356176851db/app/src/main/java/app/passwordstore/util/extensions/Extensions.kt#L68) method over Kotlin's inbuilt `lazy` for lazily evaluated properties.
-- For inflating a Fragment or Activity view, always use the [`viewBinding`](https://github.com/android-password-store/Android-Password-Store/blob/3a16d77db24b6d79d9d27ce3207d72a7a879f38a/app/src/main/java/dev/msfjarvis/aps/util/extensions/FragmentViewBindingDelegate.kt) extension.
+- Unless you're absolutely sure what you're doing, always prefer the [`unsafeLazy`](https://github.com/agrahn/Android-Password-Store/blob/f870dd49138d63d9803783458abf1356176851db/app/src/main/java/app/passwordstore/util/extensions/Extensions.kt#L68) method over Kotlin's inbuilt `lazy` for lazily evaluated properties.
+- For inflating a Fragment or Activity view, always use the [`viewBinding`](https://github.com/agrahn/Android-Password-Store/blob/3a16d77db24b6d79d9d27ce3207d72a7a879f38a/app/src/main/java/dev/msfjarvis/aps/util/extensions/FragmentViewBindingDelegate.kt) extension.
 
 ## Building the project
 
