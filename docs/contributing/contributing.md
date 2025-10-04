@@ -4,12 +4,6 @@
 
 This document should be treated as suggestions, and not rules, on how to contribute to Android Password Store. All positive contribution is welcome, so please do not hesitate in pitching forth any ideas you have!
 
-## Table of contents
-
-- [Things to do before you start writing code](#things-to-do-before-you-start-writing-code)
-- [Navigating the source code](#navigating-the-source-code)
-- [Building the project](#building-the-project)
-
 # Things to do before you start writing code
 
 If you're trying to fix a bug that already has an open issue, it's a good idea to drop a comment mentioning that you're working on a fix. If no open issue exists, please file one with the full details of what the bug is and how you intend to resolve it, and only start implementation once a maintainer has triaged the issue and has signed off on your approach. This allows maintainers to be able to review your pull request faster when it arrives, and saves you redundant effort of having to make potentially large changes in response to code review.

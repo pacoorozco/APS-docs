@@ -82,7 +82,7 @@ const config: Config = {
                         },
                         {
                             label: 'Contributing',
-                            to: '/docs/category/contributing',
+                            to: '/docs/contributing',
                         },
                     ],
                 },
