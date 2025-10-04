@@ -1,41 +1,22 @@
-# Website
+# Android Password Store Documentation
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+This project contains the documentation for the [Android Password Store application](https://github.com/agrahn/Android-Password-Store), a secure and open-source password manager based on the [pass](https://www.passwordstore.org/).
 
-## Installation
+## About
 
-```bash
-yarn
-```
+Android Password Store is an app that allows users to manage their passwords securely using GPG-encrypted files, compatible with the [pass](https://www.passwordstore.org/) standard. This documentation provides guides, usage instructions, and development information for users and contributors.
 
-## Local Development
+## Features
 
-```bash
-yarn start
-```
+- Secure password storage using GPG encryption
+- Compatible with the `pass` and other pass-compatible apps
+- Easy password retrieval and management
+- Open-source and privacy-focused
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+## Getting Started
 
-## Build
+Refer to the [User Guide](https://pacoorozco.info/APS-docs/docs/category/getting-started) for detailed instructions.
 
-```bash
-yarn build
-```
+## Development
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-## Deployment
-
-Using SSH:
-
-```bash
-USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```bash
-GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+This documentation site is built with [Docusaurus](https://docusaurus.io/).
